@@ -13,6 +13,5 @@ var twoSum = function(nums, target) {
             }
         }
     }
-    // console.log(res);
     return res;
 };
