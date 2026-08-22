@@ -10,9 +10,9 @@ var threeSum = function(nums) {
         let left = i+1;
         let right=nums.length-1;
         //duplicate
-        if (i>0 &&nums[i]==nums[i-1]){
-            continue;
-        }
+        // if (i>0 &&nums[i]==nums[i-1]){
+        //     continue;
+        // }
         while (left<right){
             sum = nums[i]+nums[left]+nums[right];
             if (sum == 0){
