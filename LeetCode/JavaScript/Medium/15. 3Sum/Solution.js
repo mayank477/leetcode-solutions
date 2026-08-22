@@ -3,23 +3,6 @@
  * @return {number[][]}
  */
 var threeSum = function(nums) {
-    //create a new resultant array,res
-    //let sum=0
-    //run a for loop from 0->n-2
-    //initialize two pointers left and right 
-    // left=nums[i+1]
-    //right=nums.length-1
-    //while left<right 
-    //if (nums[i]+left=right==0)
-        //result.push(nums[i],left,right)
-    // if(left <right && nums[i]==left)
-        //left++
-    // if(left<right && nums[i]==right)
-        // right--;
-    // left++;
-    // right--
-    // return sum
-
     let res=[];
     let sum=0;
     nums.sort((a,b)=> a-b);
@@ -45,6 +28,5 @@ var threeSum = function(nums) {
             }
         }
     }
-    // console.log(res);
     return res
 };
