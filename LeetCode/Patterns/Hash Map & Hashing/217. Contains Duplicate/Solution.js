@@ -3,7 +3,6 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    //two pointer i and j 
 
     //create map 
     // add elemets with freq 
